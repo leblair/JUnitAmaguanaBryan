@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.*;
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 class BubbleSortTest {
 
-
+    BubbleSort bubbleSort = new BubbleSort();
 
     @org.junit.jupiter.api.BeforeEach
     void setUp() {
